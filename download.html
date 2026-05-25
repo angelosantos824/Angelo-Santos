@@ -1,74 +1,280 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angelo Santos</title>
 
-    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Downloads | Angelo Santos</title>
+
+    <meta name="description"
+        content="Área de downloads com ferramentas recomendadas para desenvolvimento e produtividade." />
+
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="logo">Download</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="projeto.html">Projetos</a></li>
-            <li><a href="habilidades.html">Habilidades</a></li>
-            <li><a href="contactos.html">Contato</a></li>
-            <li><a href="download.html" class="active">Download</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- ==========================================
+         HEADER
+    ========================================== -->
 
-<main>
+    <header>
 
-    <section class="section">
-        <div class=""> <!--retirei o glass-box para ficar mais simples, mas posso voltar a colocar se quiseres -->
+        <nav class="navbar">
 
-            <h2>Baixe com segurança</h2>
-            <p>Arquivos recomendados para estudo e desenvolvimento.</p>
+            <a href="index.html" class="logo">
+                Angelo Santos
+            </a>
 
-            <ul class="download-list">
+            <ul class="nav-links">
+
                 <li>
-                    <a href="arquivos/GSAutoClicker.exe" download>
-                        GSAutoClicker – Clique Automático
+                    <a href="index.html">
+                        Home
                     </a>
                 </li>
+
                 <li>
-                    <a href="arquivos/draw.io-29.6.1-windows-installer.exe" download>
-                        Draw.io – Diagramas
+                    <a href="sobre.html">
+                        Sobre
                     </a>
                 </li>
+
                 <li>
-                    <a href="arquivos/idea-2026.1 (1).exe" download>
-                        IntelliJ IDEA 2026
+                    <a href="projeto.html">
+                        Projetos
                     </a>
                 </li>
+
                 <li>
-                    <a href="arquivos/VSCodeUserSetup-x64-1.112.0.exe" download>
-                        Visual Studio Code (x64)
+                    <a href="habilidades.html">
+                        Habilidades
                     </a>
                 </li>
+
                 <li>
-                    <a href="arquivos/WhatsApp Installer.exe" download>
-                        WhatsApp Desktop
+                    <a href="contactos.html">
+                        Contato
                     </a>
                 </li>
+
+                <li>
+                    <a href="download.html" class="active">
+                        Download
+                    </a>
+                </li>
+
             </ul>
 
-        </div>
-    </section>
+        </nav>
 
-</main>
+    </header>
 
-<footer class="footer">
-    <p>&copy; 2026 Angelo Santos</p>
-</footer>
+    <!-- ==========================================
+         MAIN
+    ========================================== -->
+
+    <main>
+
+        <section class="section">
+
+            <div class="glass-box">
+
+                <span class="tag">
+                    Downloads
+                </span>
+
+                <h2>
+                    Ferramentas Recomendadas
+                </h2>
+
+                <p class="download-intro">
+                    Arquivos e aplicações úteis para programação,
+                    produtividade e desenvolvimento web.
+                </p>
+
+                <!-- GRID DOWNLOADS -->
+
+                <div class="downloads-grid">
+
+                    <!-- GS AUTO CLICKER -->
+
+                    <div class="download-card">
+
+                        <div class="download-icon">
+                            🖱️
+                        </div>
+
+                        <h3>
+                            GS Auto Clicker
+                        </h3>
+
+                        <p>
+                            Ferramenta para automação de cliques.
+                        </p>
+
+                        <a href="arquivos/GSAutoClicker.exe"
+                           download
+                           class="download-btn">
+
+                            Download
+
+                        </a>
+
+                    </div>
+
+                    <!-- DRAW.IO -->
+
+                    <div class="download-card">
+
+                        <div class="download-icon">
+                            📊
+                        </div>
+
+                        <h3>
+                            Draw.io
+                        </h3>
+
+                        <p>
+                            Aplicação para diagramas e fluxogramas.
+                        </p>
+
+                        <a href="arquivos/draw.io-29.6.1-windows-installer.exe"
+                           download
+                           class="download-btn">
+
+                            Download
+
+                        </a>
+
+                    </div>
+
+                    <!-- INTELLIJ -->
+
+                    <div class="download-card">
+
+                        <div class="download-icon">
+                            ☕
+                        </div>
+
+                        <h3>
+                            IntelliJ IDEA
+                        </h3>
+
+                        <p>
+                            IDE profissional para Java e desenvolvimento backend.
+                        </p>
+
+                        <a href="arquivos/idea-2026.1 (1).exe"
+                           download
+                           class="download-btn">
+
+                            Download
+
+                        </a>
+
+                    </div>
+
+                    <!-- VSCODE -->
+
+                    <div class="download-card">
+
+                        <div class="download-icon">
+                            💻
+                        </div>
+
+                        <h3>
+                            Visual Studio Code
+                        </h3>
+
+                        <p>
+                            Editor leve e poderoso para desenvolvimento web.
+                        </p>
+
+                        <a href="arquivos/VSCodeUserSetup-x64-1.112.0.exe"
+                           download
+                           class="download-btn">
+
+                            Download
+
+                        </a>
+
+                    </div>
+
+                    <!-- WHATSAPP -->
+
+                    <div class="download-card">
+
+                        <div class="download-icon">
+                            💬
+                        </div>
+
+                        <h3>
+                            WhatsApp Desktop
+                        </h3>
+
+                        <p>
+                            Aplicação oficial do WhatsApp para computador.
+                        </p>
+
+                        <a href="arquivos/WhatsApp Installer.exe"
+                           download
+                           class="download-btn">
+
+                            Download
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- ALERTA -->
+
+                <div class="download-alert">
+
+                    <strong>
+                        ⚠️ Aviso:
+                    </strong>
+
+                    Faça download apenas de arquivos confiáveis
+                    e mantenha sempre o seu antivírus atualizado.
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 Angelo Santos. Todos os direitos reservados.
+        </p>
+
+        <p class="dev-footer">
+
+            Desenvolvido por
+
+            <a href="https://angelosantos824.github.io/usedoze/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                DOZEDEV.COM
+
+            </a>
+
+        </p>
+
+    </footer>
 
 </body>
+
 </html>
-``
