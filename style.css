@@ -20,8 +20,8 @@ body {
   color: #e2e8f0;
   line-height: 1.6;
   background:
-    linear-gradient(rgba(2, 6, 23, 0.45), rgba(2, 6, 23, 0.7)),
-    url("Imagens/fundo.avif") no-repeat center center fixed;
+    linear-gradient(rgba(2, 6, 23, 0.5), rgba(2, 6, 23, 0.7)),
+    url("https://blog.ebaconline.com.br/blog/wp-content/uploads/2022/12/ffapu6nxbihe77kajjmeh-e1674740233107.png") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -1004,6 +1004,139 @@ textarea:focus {
 
   .contact-info-item {
     flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+.link-dev {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 800;
+  transition: 0.3s ease;
+}
+
+.link-dev:hover {
+  color: #7dd3fc;
+  text-shadow: 0 0 12px rgba(56,189,248,0.45);
+}
+
+.btn-profile {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: rgba(56,189,248,0.15);
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  font-weight: 800;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-profile:hover {
+  background: #38bdf8;
+  color: #020617;
+  transform: translateY(-3px);
+}
+
+.hero-card-perfil {
+  margin-top: 35px;
+}
+/* ==========================================
+   ARSENAL TECNOLÓGICO
+========================================== */
+
+.arsenal-tech {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.tech-categoria strong {
+  display: block;
+  margin-bottom: 12px;
+  color: #38bdf8;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.badge {
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s ease;
+}
+
+.badge:hover {
+  transform: translateY(-4px) scale(1.04);
+}
+
+/* CORES */
+
+.html {
+  background: #e44d26;
+  color: #fff;
+}
+
+.css {
+  background: #1572b6;
+  color: #fff;
+}
+
+.js {
+  background: #f7df1e;
+  color: #111;
+}
+
+.github {
+  background: #111;
+  color: #fff;
+}
+
+.vscode {
+  background: #007acc;
+  color: #fff;
+}
+
+.intellij {
+  background: #000;
+  color: #fff;
+}
+
+.supabase {
+  background: #3ecf8e;
+  color: #fff;
+}
+
+.postgres {
+  background: #336791;
+  color: #fff;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 700px) {
+
+  .tech-badges {
+    justify-content: center;
+  }
+
+  .badge {
+    width: 100%;
     text-align: center;
   }
 
